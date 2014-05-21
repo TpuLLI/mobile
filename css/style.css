@@ -1,0 +1,73 @@
+header,
+nav,
+section,
+article,
+aside,
+footer {
+  display: block
+}
+
+header {
+  width: 100%;
+  height: 843px;
+  background: url(../img/header.png) no-repeat;
+}
+
+.sait_header {
+  width: 960px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+  height: 38px;
+  float: left;
+  /*margin-top: 70px;*/
+  background: url(../img/sprite.png);
+}
+
+.top_menu {
+  margin-left: 30%;
+  height: 35px;
+  float: right;
+}
+
+.top_menu ul {
+  height: 35px;
+  line-height: 35px;
+ /* padding-top: 75px;*/
+}
+
+.top_menu li {
+  float: left;
+  margin-left: 28px;
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.top_menu li:first-child {
+  margin-left: 0;
+}
+
+.top_menu a {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.4);
+}
+
+.top_menu li:hover {
+  color: #edbfff;
+}
+
+.top_menu:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.top_text {
+  width: 50%;
+  padding-top: 365px;
+  float: left;
+}
