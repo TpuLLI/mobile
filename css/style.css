@@ -27,15 +27,21 @@ header {
   background: url(../img/sprite.png);
 }
 
+.logo:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
 .top_menu {
-  width: 70%;
- /* margin-left: 30%;*/
+  /*width: 70%;*/
   height: 35px;
   float: right;
+  margin-top: 72px;
 }
 
 .top_menu ul {
-  height: 35px;
+  height: 30px;
   line-height: 35px;
  /* padding-top: 75px;*/
 }
@@ -58,7 +64,7 @@ header {
 }
 
 .top_menu li:hover {
-  color: #edbfff;
+  border-bottom: 3px solid #edbfff;
 }
 
 .top_menu:after {
@@ -69,6 +75,49 @@ header {
 
 .top_text {
   width: 50%;
-  padding-top: 365px;
+  padding-top: 251px;
   float: left;
+  clear: both;
 }
+
+.top_text h1, p {
+  color: #fff;
+}
+
+.top_text h2 {
+  color: #edbfff;
+}
+
+.top_telephone {
+  width: 50%;
+  height: 450px;
+  margin-top: 130px;
+  float: right;
+  /*padding-top: 153px;*/
+/*  z-index: 1;*/
+  background: url(../img/photo_telephone.png) 0 0 no-repeat;
+  background-position: center;
+  /*margin-left: 50%;*/
+  /*overflow: hidden;*/
+
+}
+
+.top_telephone:after {
+  display: block;
+  content: '';
+  width: 80px;
+  height: 75px;
+  background-image: url(../img/sprite.png);
+  background-position: 0 -48px;
+  margin-left: 50%;
+  margin-top: 35%;
+}
+
+article {
+  width: 100%;
+  height: 340px;
+  background: linear-gradient(to top, #322539, #745083);
+}
+
+
+
